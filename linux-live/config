@@ -23,7 +23,7 @@ BEXT="sb"
 #
 # if Debian [bookworm]
 # if Ubuntu [jammy, noble]
-DISTRIBUTION="bullseye"
+DISTRIBUTION="bookworm"
 
 # Distribution architecture (Debian only)
 #
@@ -33,7 +33,7 @@ DISTRIBUTION_ARCH="amd64"
 # Desktop environment
 #
 # [core, flux, xfce, xfce-ultra, xfce-puzzle, xfce-puzzle-base, lxqt, devel]
-DESKTOP_ENVIRONMENT="xfce"
+DESKTOP_ENVIRONMENT="core"
 
 # System variant, indicates the used list of packages in modules
 #
