@@ -23,7 +23,7 @@ BEXT="sb"
 #
 # if Debian [bookworm]
 # if Ubuntu [jammy, noble]
-DISTRIBUTION="bookworm"
+DISTRIBUTION="bullseye"
 
 # Distribution architecture (Debian only)
 #
@@ -33,17 +33,17 @@ DISTRIBUTION_ARCH="amd64"
 # Desktop environment
 #
 # [core, flux, xfce, xfce-ultra, xfce-puzzle, xfce-puzzle-base, lxqt, devel]
-DESKTOP_ENVIRONMENT="xfce-ultra"
+DESKTOP_ENVIRONMENT="xfce"
 
 # System variant, indicates the used list of packages in modules
 #
 # [minimum, standard, toolbox, ultra, puzzle]
-PACKAGE_VARIANT="toolbox"
+PACKAGE_VARIANT="minimum"
 
 # Compression type
 #
 # [xz, lzo, gz, lz4, zstd]
-COMP_TYPE="zstd"
+COMP_TYPE="xz"
 
 ##### KERNEL SETTINGS #####
 # Kernel type
