@@ -54,7 +54,8 @@ jobs:
 
     - name: Upload Release Assets
       run: |
-        for iso in minios-iso/*.iso; do
+        mv minios-iso minios-iso.iso
+        for iso in minios-iso.iso; do
           asset_name=$(basename $iso)
           echo "Uploading $asset_name"
           curl \
