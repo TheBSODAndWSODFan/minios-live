@@ -35,7 +35,7 @@ KERNEL_TYPE="default"
 
 # Use Linux kernel from backports
 # Options: true, false
-KERNEL_BPO="true"
+KERNEL_BPO="false"
 
 # Kernel with AUFS support
 # Options: true, false
