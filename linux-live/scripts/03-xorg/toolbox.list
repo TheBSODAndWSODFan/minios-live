@@ -4,6 +4,7 @@ xserver-xorg-video-intel
 xinit
 xterm
 blackbox
+openbox
 libxcursor1
 breeze-cursor-theme
 x11-utils
