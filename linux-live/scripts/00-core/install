@@ -64,7 +64,7 @@ done
 
 if [ ! -f /etc/apt/apt.conf.d/000MiniOS ]; then
     cat <<'EOF' >/etc/apt/apt.conf.d/000MiniOS
-APT::Install-Recommends "0";
+APT::Install-Recommends "1";
 APT::Install-Suggests "0";
 Acquire::Languages { "none"; }
 EOF
