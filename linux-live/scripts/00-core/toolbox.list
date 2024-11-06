@@ -84,12 +84,24 @@ iw
 chntpw
 screen
 nmon
+open-iscsi
+tgt
+transmission-cli
+qemu-system-x86
+qemu-utils
+libvirt-daemon-system
+uidmap
+docker.io
+docker-compose
+lazydocker
 ipset
+virt-what
 linux-base
 apt-transport-https
 iputils-ping
 wpasupplicant
 systemd-timesyncd
+selinux-policy-default
 fuse3 || fuse
 libfuse2
 gettext-base
