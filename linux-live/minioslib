@@ -1167,7 +1167,7 @@ build_chroot() {
 
     curl -k https://minios.dev/debian/minios-linux.asc | gpg --dearmor >"${INSTALL_DIR}/etc/apt/trusted.gpg.d/minios-linux.gpg"
     curl -k http://deb.freexian.com/extended-lts/archive-key.gpg >"${INSTALL_DIR}/etc/apt/trusted.gpg.d/freexian-archive-extended-lts.gpg"
-
+    curl -k http://teharris.net/mx23repo.asc | gpg --dearmor >"${INSTALL_DIR}/etc/apt/trusted.gpg.d/mx.gpg"
     if [ -f /.minios-live-container ]; then
         chroot_run "${INSTALL_DIR}" /$BUILD_SCRIPTS/install-chroot -
     else
