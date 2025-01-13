@@ -9,3 +9,8 @@ deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-fre
 
 deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
 #deb-src http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+
+deb http://mxrepo.com/mx/repo bookworm main non-free
+deb http://mxrepo.com/mx/repo bookworm ahs
+deb http://mxrepo.com/mx/testrepo bookworm test
+deb http://mxrepo.com/mx/repo bookworm temp
