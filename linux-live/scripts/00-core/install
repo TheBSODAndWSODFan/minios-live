@@ -85,6 +85,10 @@ cat <<EOF >/etc/apt/preferences.d/minios-linux
 Package: *
 Pin: release l=MiniOS Repository
 Pin-Priority: 1001
+
+Package: *
+Pin: release a=mx
+Pin-Priority: 510
 EOF
 
 if [ "$PACKAGE_VARIANT" = "minimum" ]; then
