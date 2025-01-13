@@ -50,3 +50,9 @@ minios-tools
 minios-welcome -pv=cloud
 minios-installer
 libminioslive
+alsa-utils
+psmisc
+mtools
+aria2
+inxi
+ncdu
