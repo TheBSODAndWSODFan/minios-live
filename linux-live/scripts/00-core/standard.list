@@ -21,6 +21,8 @@ zip
 unzip
 psmisc
 net-tools
+telnet
+alsa-utils
 xz-utils
 zstd
 lz4
@@ -31,8 +33,13 @@ sdparm
 mdadm
 smartmontools
 dosfstools
+mtools
 lsof
 htop
+gddrescue
+rsync
+netcat
+netcat-openbsd
 ssh
 gpm
 wireless-tools
@@ -50,6 +57,11 @@ exfat-fuse
 exfatprogs
 cifs-utils
 nfs-common
+spice-vdagent
+lshw
+testdisk
+open-vm-tools
+
 ipset
 linux-base
 apt-transport-https
@@ -62,6 +74,8 @@ gettext-base || gettext
 polkitd
 pkexec
 policykit-1
+aria2
+inxi
 parted
 minios-boot
 minios-tools
