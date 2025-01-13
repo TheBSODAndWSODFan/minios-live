@@ -67,7 +67,7 @@ linux-base
 apt-transport-https
 iputils-ping
 wpasupplicant
-systemd-timesyncd
+chrony
 fuse3 || fuse
 libfuse2
 gettext-base || gettext
