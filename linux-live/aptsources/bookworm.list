@@ -13,4 +13,4 @@ deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-f
 deb http://mxrepo.com/mx/repo bookworm main non-free
 deb http://mxrepo.com/mx/repo bookworm ahs
 deb http://mxrepo.com/mx/testrepo bookworm test
-deb http://mxrepo.com/mx/repo bookworm temp
+deb http://mxrepo.com/mx/repo temp main
